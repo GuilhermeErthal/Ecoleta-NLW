@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import Header from './Header';
+import Routes from './routes'
+
+import Home from './pages/Home';
+import CreatePoint from './pages/CreatePoint';
 
 function App() {
-  return (        
-        <div>
-          <Header title="Hello World" />
-
-          <h1>Conteudo da aplicação</h1>
-        </div>
+  return (  
+    <Routes />          
   );
 }
 
